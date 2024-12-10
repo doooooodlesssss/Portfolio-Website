@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Doya's Portfolio</title>
+    <link rel="stylesheet" href="/src/style.css">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,9 +20,9 @@
             <a href="#main">db</a>
         </div>
         <div id="nav">
-            <a class="navIc" href="#projects">projects</a>
-            <a class="navIc" href="#skills">skills</a>
-            <a class="navIc" href="#about">about</a>
+            <a class="navIc" href="#main">Home</a>
+            <a class="navIc" href="#projects">Projects</a>
+            <a class="navIc" href="#about">About</a>
         </div>
         <div id="contact">
             <a href="mailto:bangera.diya@gmail.com">GET IN TOUCH!</a>
@@ -30,7 +31,7 @@
 
     <div class="sections" id="main">
         <div id="leftThing">
-            <div id="doya"><img src="/Portfolio-Website/fotos/Frame 2.png"> </div>
+            <div id="doya"><img src="/public/fotos/Frame 2.png"> </div>
         </div>
 
         <div class="intro" id="mainIntro"> a web developer and a  computer science sophomore at <br> netaji subhas university of technology, delhi, india </div>
@@ -74,8 +75,22 @@
     </div>
     
     <div class="sections" id="about" >
-        <div id="aboutHead">about.about.about.</div>
-        <div id="aboutImg"><img src="/Portfolio-Website/fotos/Frame 1.png"> </div>
+        <!-- <div id="aboutHead">skills and about me.</div> -->
+        <div id="aboutHead" style="width: 100%; white-space: nowrap; text-align: center; overflow: hidden; text-overflow: ellipsis;">
+            skills.and.about.
+        </div>
+
+        <div class="container">
+            <div class="leftcol">
+                <div class="toprow"></div>
+                <div class="bottomrow">
+                    <div id="bottoml">DSA</div>
+                    <a href="https://leetcode.com/u/diyabangera/" id="bottomr"> <div id="bottomr"> <i class="fa-solid fa-code fa-4x"></i> </div></a>
+                </div>
+            </div>
+            <div class="rightcol"><h1>education</h1> </div>
+
+        </div>        
         <div id="contInf">
             <a class="aboutBor" href="mailto:bangera.diya@gmail.com" id="mail">bangera.diya@gmail.com</a>
             <div id="circle"></div>
@@ -116,10 +131,11 @@
 
     <div id="trailer">
         <!-- <i id="trailer-icon" class="fa-solid fa-circle-arrow-up"></i> -->
-        <i id="trailer-icon" class="fa-solid fa-circle-arrow-up fa-rotate-by" style="color: white; --fa-rotate-angle: 45deg;""></i>    </div>
+        <i id="trailer-icon" class="fa-solid fa-circle-arrow-up fa-rotate-by" style="color: white; --fa-rotate-angle: 45deg;"></i>    </div>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll-polyfill/0.4.4/smoothscroll.min.js"></script>
     <script src="script.js"></script>
+    <script type="module" src="/src/main.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
