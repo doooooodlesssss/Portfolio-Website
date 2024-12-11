@@ -268,6 +268,8 @@ a:hover {
     display: flex;
     padding: 1em;
     gap: 1em;
+    font-family: Arial, sans-serif; /* Unified font family */
+
 }
 
 .leftcol{
@@ -276,23 +278,53 @@ a:hover {
     border-radius: 30px;
     display: flex;
     flex-direction: column;
-    gap: 1em;
+    gap: 0.5em;
+}
+#techstackicons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+}
+.techicons{
+    /* width: 100%; Make images take full width of the available space  */
+    width: 15%;
+    /* height: auto; Maintain aspect ratio */
+    height: 4%;
+    object-fit:fill;
 }
 .rightcol{
     flex: 1;
-    background-color: #F7F6F2;
-    opacity: 22%;
+    background-color: rgba(247, 246, 242, 0.22);
     border-radius: 30px;
-    color: #E9962E;
-    font-size: 30px;
-    font-weight: 750;
-    /* padding: 1em; */
+    padding: 0.5em;
 }
+
+#rightcolhead{
+    color: #E9962E;
+    font-size: 45px;
+    font-weight: 700;
+    padding: 0.25em;
+}
+
+h2, h3, h4{
+    font-weight: 500;
+}
+.ed{
+    color: white;
+    font-size: 10px;
+    font-weight:300;
+    margin-bottom: 2.5em;
+    margin-left: 1.5em;
+}
+
 .toprow{
     flex: 1.5;
-    background-color: #F7F6F2;
+    background-color: rgba(247, 246, 242, 0.22);
     border-radius: 30px;
-    opacity: 22%;
+    font-size: 45px;
+    font-weight: 700;
+    color: #F7F6F2;
+    padding: 0.5em;
     
 }
 .bottomrow{
