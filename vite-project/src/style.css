@@ -333,6 +333,7 @@ h2, h3, h4{
     border-radius: 30px;
     display: flex;
     gap: 1em;
+    padding-top: 0.5em;
 }
 #bottoml{
     flex: 1.5;
@@ -386,6 +387,7 @@ h2, h3, h4{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 

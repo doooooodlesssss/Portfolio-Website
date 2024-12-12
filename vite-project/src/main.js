@@ -78,6 +78,7 @@ import * as THREE from "three";
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
 import Threeasy from "threeasy";
 
+
 const app = new Threeasy(THREE, { alpha: true });
 var loader = new GLTFLoader();
 let modelUrl = '/retro_computer/scene.gltf';
