@@ -81,7 +81,7 @@ import Threeasy from "threeasy";
 
 const app = new Threeasy(THREE, { alpha: true });
 var loader = new GLTFLoader();
-let modelUrl = '/public/retro_computer/scene.gltf';
+let modelUrl = '/retro_computer/scene.gltf';
 
 // Declare variables
 let loadedModel;
